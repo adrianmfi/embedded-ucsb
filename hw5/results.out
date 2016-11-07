@@ -1,0 +1,14 @@
+T:0 P:1 PE: 1 F:0 D:Standing still
+T:5 P:0 PE: 0 F:1 D:Up
+T:20 P:1 PE: 1 F:1 D:Standing still
+T:25 P:0 PE: 0 F:2 D:Up
+T:50 P:1 PE: 1 F:2 D:Standing still
+T:60 P:0 PE: 0 F:4 D:Up
+T:100 P:1 PE: 1 F:4 D:Standing still
+T:115 P:1 PE: 0 F:1 D:Down
+T:140 P:1 PE: 1 F:4 D:Up
+T:150 P:2 PE: 2 F:4 D:Standing still
+T:160 P:1 PE: 1 F:2 D:Down
+T:200 P:2 PE: 2 F:2 D:Standing still
+T:205 P:1 PE: 1 F:3 D:Up
+1:0.000000 2:10.000000 3:7.500000 4:5.000000 5:20.000000

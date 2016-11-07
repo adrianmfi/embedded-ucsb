@@ -31,7 +31,7 @@
 
 #define Q_ROM
 
-#define Q_PARAM_SIZE            1
+#define Q_PARAM_SIZE            4
 
 #define Q_SIGNAL_SIZE		2
 
