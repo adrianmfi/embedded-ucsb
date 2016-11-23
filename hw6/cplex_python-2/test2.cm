@@ -1,0 +1,10 @@
+; resource latency number area
+mpy2 2 1 0
+mpy1 1 1 0
+alu 1 1 1
+nop 0 2 0
+; resource : list of opeartions can be executed by the resource
+mpy1 : n1 n2 n3 n4
+mpy2 : n1 n2 n3 n4
+alu : p1 p2 p3 p4
+nop : start stop

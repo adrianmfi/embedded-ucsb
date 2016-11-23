@@ -1,0 +1,242 @@
+Tried aggregator 2 times.
+MIP Presolve eliminated 72 rows and 104 columns.
+MIP Presolve modified 109 coefficients.
+Aggregator did 6 substitutions.
+Reduced MIP has 58 rows, 79 columns, and 265 nonzeros.
+Reduced MIP has 75 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (0.73 ticks)
+Found incumbent of value 11.000000 after 0.03 sec. (1.08 ticks)
+Probing fixed 8 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.19 ticks)
+Cover probing fixed 0 vars, tightened 2 bounds.
+Tried aggregator 1 time.
+MIP Presolve eliminated 3 rows and 8 columns.
+MIP Presolve modified 41 coefficients.
+Reduced MIP has 55 rows, 71 columns, and 238 nonzeros.
+Reduced MIP has 67 binaries, 4 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.21 ticks)
+Probing time = 0.00 sec. (0.16 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 55 rows, 71 columns, and 238 nonzeros.
+Reduced MIP has 67 binaries, 4 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.14 ticks)
+Probing fixed 1 vars, tightened 1 bounds.
+Probing time = 0.00 sec. (0.19 ticks)
+Clique table members: 212.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.14 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           11.0000        3.0000            72.73%
+      0     0        6.0000    12       11.0000        6.0000       15   45.45%
+*     0+    0                            6.0000        6.0000             0.00%
+      0     0        cutoff              6.0000        6.0000       15    0.00%
+Elapsed time = 0.08 sec. (2.49 ticks, tree = 0.01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.08 sec. (2.50 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.08 sec. (2.50 ticks)
+MIP_optimal
+Solution status =  101 : MIP_optimal
+Solution method =  12 : MIP
+Objective value =  6.0
+
+                                           latency: Value = 6.00
+                                        stop_START: Value = 6.00
+                                      stop_latency: Value = 0.00
+                                       start_START: Value = 1.00
+                                           start_1: Value = 1.00
+                                           start_2: Value = -0.00
+                                           start_3: Value = -0.00
+                                           start_4: Value = -0.00
+                                           start_5: Value = -0.00
+                                           start_6: Value = -0.00
+                                           start_7: Value = -0.00
+                                           start_8: Value = 0.00
+                                           start_9: Value = 0.00
+                                          start_10: Value = 0.00
+                                          start_11: Value = 0.00
+                                          T1_START: Value = 1.00
+                                              T1_1: Value = 1.00
+                                              T1_2: Value = 0.00
+                                              T1_3: Value = -0.00
+                                              T1_4: Value = -0.00
+                                              T1_5: Value = -0.00
+                                              T1_6: Value = -0.00
+                                              T1_7: Value = -0.00
+                                              T1_8: Value = 0.00
+                                              T1_9: Value = 0.00
+                                             T1_10: Value = 0.00
+                                             T1_11: Value = 0.00
+                                          T2_START: Value = 1.00
+                                              T2_1: Value = 1.00
+                                              T2_2: Value = -0.00
+                                              T2_3: Value = -0.00
+                                              T2_4: Value = -0.00
+                                              T2_5: Value = -0.00
+                                              T2_6: Value = -0.00
+                                              T2_7: Value = -0.00
+                                              T2_8: Value = 0.00
+                                              T2_9: Value = 0.00
+                                             T2_10: Value = 0.00
+                                             T2_11: Value = 0.00
+                                          T4_START: Value = 2.00
+                                              T4_1: Value = 0.00
+                                              T4_2: Value = 1.00
+                                              T4_3: Value = -0.00
+                                              T4_4: Value = -0.00
+                                              T4_5: Value = -0.00
+                                              T4_6: Value = -0.00
+                                              T4_7: Value = -0.00
+                                              T4_8: Value = 0.00
+                                              T4_9: Value = 0.00
+                                             T4_10: Value = 0.00
+                                             T4_11: Value = 0.00
+                                          T3_START: Value = 3.00
+                                              T3_1: Value = -0.00
+                                              T3_2: Value = 0.00
+                                              T3_3: Value = 1.00
+                                              T3_4: Value = -0.00
+                                              T3_5: Value = -0.00
+                                              T3_6: Value = -0.00
+                                              T3_7: Value = -0.00
+                                              T3_8: Value = 0.00
+                                              T3_9: Value = 0.00
+                                             T3_10: Value = 0.00
+                                             T3_11: Value = 0.00
+                                          T5_START: Value = 3.00
+                                              T5_1: Value = 0.00
+                                              T5_2: Value = 0.00
+                                              T5_3: Value = 1.00
+                                              T5_4: Value = -0.00
+                                              T5_5: Value = -0.00
+                                              T5_6: Value = -0.00
+                                              T5_7: Value = -0.00
+                                              T5_8: Value = -0.00
+                                              T5_9: Value = 0.00
+                                             T5_10: Value = 0.00
+                                             T5_11: Value = 0.00
+                                          T7_START: Value = 4.00
+                                              T7_1: Value = -0.00
+                                              T7_2: Value = 0.00
+                                              T7_3: Value = 0.00
+                                              T7_4: Value = 1.00
+                                              T7_5: Value = -0.00
+                                              T7_6: Value = -0.00
+                                              T7_7: Value = -0.00
+                                              T7_8: Value = -0.00
+                                              T7_9: Value = 0.00
+                                             T7_10: Value = 0.00
+                                             T7_11: Value = 0.00
+                                          T6_START: Value = 4.00
+                                              T6_1: Value = -0.00
+                                              T6_2: Value = 0.00
+                                              T6_3: Value = -0.00
+                                              T6_4: Value = 1.00
+                                              T6_5: Value = -0.00
+                                              T6_6: Value = -0.00
+                                              T6_7: Value = -0.00
+                                              T6_8: Value = -0.00
+                                              T6_9: Value = 0.00
+                                             T6_10: Value = 0.00
+                                             T6_11: Value = 0.00
+                                          T8_START: Value = 5.00
+                                              T8_1: Value = 0.00
+                                              T8_2: Value = -0.00
+                                              T8_3: Value = 0.00
+                                              T8_4: Value = -0.00
+                                              T8_5: Value = 1.00
+                                              T8_6: Value = -0.00
+                                              T8_7: Value = -0.00
+                                              T8_8: Value = 0.00
+                                              T8_9: Value = -0.00
+                                             T8_10: Value = -0.00
+                                             T8_11: Value = 0.00
+                                            stop_1: Value = 0.00
+                                            stop_2: Value = 0.00
+                                            stop_3: Value = -0.00
+                                            stop_4: Value = 0.00
+                                            stop_5: Value = -0.00
+                                            stop_6: Value = 1.00
+                                            stop_7: Value = -0.00
+                                            stop_8: Value = -0.00
+                                            stop_9: Value = -0.00
+                                           stop_10: Value = -0.00
+                                           stop_11: Value = 0.00
+                                     start_latency: Value = 0.00
+                                        T1_latency: Value = 1.00
+                                        T2_latency: Value = 1.00
+                                        T4_latency: Value = 1.00
+                                        T3_latency: Value = 1.00
+                                        T5_latency: Value = 1.00
+                                        T7_latency: Value = 1.00
+                                        T6_latency: Value = 1.00
+                                        T8_latency: Value = 1.00
+                                         nop_start: Value = 1.00
+                                             R1_T1: Value = 1.00
+                                             R2_T2: Value = 1.00
+                                             R1_T4: Value = 1.00
+                                             R2_T4: Value = 0.00
+                                             R2_T3: Value = 1.00
+                                             R3_T3: Value = 0.00
+                                             R4_T5: Value = 1.00
+                                             R5_T5: Value = 0.00
+                                             R1_T7: Value = 1.00
+                                             R4_T7: Value = 0.00
+                                             R5_T6: Value = 1.00
+                                             R3_T8: Value = 1.00
+                                          nop_stop: Value = 1.00
+                                         mpy1_T3_1: Value = -0.00
+                                         mpy2_T3_1: Value = 0.00
+                                         mpy1_T3_2: Value = 0.00
+                                         mpy2_T3_2: Value = 0.00
+                                         mpy1_T3_3: Value = 1.00
+                                         mpy2_T3_3: Value = 0.00
+                                         mpy1_T3_4: Value = -0.00
+                                         mpy2_T3_4: Value = 0.00
+                                         mpy1_T3_5: Value = -0.00
+                                         mpy2_T3_5: Value = 0.00
+                                         mpy1_T3_6: Value = -0.00
+                                         mpy2_T3_6: Value = 0.00
+                                         mpy1_T3_7: Value = -0.00
+                                         mpy2_T3_7: Value = 0.00
+                                         mpy1_T3_8: Value = 0.00
+                                         mpy2_T3_8: Value = 0.00
+                                         mpy1_T3_9: Value = 0.00
+                                         mpy2_T3_9: Value = 0.00
+                                        mpy1_T3_10: Value = 0.00
+                                        mpy2_T3_10: Value = 0.00
+                                        mpy1_T3_11: Value = 0.00
+                                        mpy2_T3_11: Value = 0.00
+                                         mpy1_T8_1: Value = 0.00
+                                         mpy2_T8_1: Value = 0.00
+                                         mpy1_T8_2: Value = -0.00
+                                         mpy2_T8_2: Value = 0.00
+                                         mpy1_T8_3: Value = 0.00
+                                         mpy2_T8_3: Value = 0.00
+                                         mpy1_T8_4: Value = -0.00
+                                         mpy2_T8_4: Value = 0.00
+                                         mpy1_T8_5: Value = 1.00
+                                         mpy2_T8_5: Value = 0.00
+                                         mpy1_T8_6: Value = -0.00
+                                         mpy2_T8_6: Value = 0.00
+                                         mpy1_T8_7: Value = -0.00
+                                         mpy2_T8_7: Value = 0.00
+                                         mpy1_T8_8: Value = 0.00
+                                         mpy2_T8_8: Value = 0.00
+                                         mpy1_T8_9: Value = -0.00
+                                         mpy2_T8_9: Value = 0.00
+                                        mpy1_T8_10: Value = -0.00
+                                        mpy2_T8_10: Value = 0.00
+                                        mpy1_T8_11: Value = 0.00
+                                        mpy2_T8_11: Value = 0.00
+Maximum bound violation =  0.0

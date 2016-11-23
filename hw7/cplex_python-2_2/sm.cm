@@ -1,0 +1,12 @@
+; resource latency number area
+R1 1 1 1
+R2 1 1 1
+R3 1 1 1
+R4 1 1 1
+R5 1 1 1
+; resource : list of opeartions can be executed by the resource
+R1 : T1 T4 T7
+R2 : T2 T3 T4
+R3 : T3 T8
+R4 : T5 T7
+R5 : T5 T6

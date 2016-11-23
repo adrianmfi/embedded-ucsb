@@ -1,0 +1,175 @@
+Tried aggregator 2 times.
+MIP Presolve eliminated 23 rows and 31 columns.
+MIP Presolve modified 90 coefficients.
+Aggregator did 16 substitutions.
+Reduced MIP has 39 rows, 78 columns, and 264 nonzeros.
+Reduced MIP has 76 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (0.51 ticks)
+Found incumbent of value 9.000000 after 0.01 sec. (0.85 ticks)
+Probing fixed 7 vars, tightened 0 bounds.
+Probing time = 0.00 sec. (0.16 ticks)
+Cover probing fixed 0 vars, tightened 2 bounds.
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 7 columns.
+MIP Presolve modified 66 coefficients.
+Reduced MIP has 38 rows, 71 columns, and 238 nonzeros.
+Reduced MIP has 69 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.20 ticks)
+Probing fixed 1 vars, tightened 1 bounds.
+Probing time = 0.00 sec. (0.16 ticks)
+Clique table members: 209.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.11 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            9.0000        4.0000            55.56%
+      0     0        4.7500    13        9.0000        4.7500       11   47.22%
+*     0+    0                            6.0000        4.7500            20.83%
+      0     0        cutoff              6.0000                     19    0.00%
+Elapsed time = 0.03 sec. (2.08 ticks, tree = 0.01 MB, solutions = 2)
+
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (2.08 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (2.08 ticks)
+MIP_optimal
+Solution status =  101 : MIP_optimal
+Solution method =  12 : MIP
+Objective value =  6.0
+
+                                           latency: Value = 6.00
+                                        stop_START: Value = 6.00
+                                      stop_latency: Value = 0.00
+                                       start_START: Value = 1.00
+                                           start_1: Value = 1.00
+                                           start_2: Value = -0.00
+                                           start_3: Value = -0.00
+                                           start_4: Value = -0.00
+                                           start_5: Value = -0.00
+                                           start_6: Value = -0.00
+                                           start_7: Value = -0.00
+                                           start_8: Value = 0.00
+                                           start_9: Value = 0.00
+                                          n1_START: Value = 2.00
+                                              n1_1: Value = 0.00
+                                              n1_2: Value = 1.00
+                                              n1_3: Value = -0.00
+                                              n1_4: Value = -0.00
+                                              n1_5: Value = -0.00
+                                              n1_6: Value = -0.00
+                                              n1_7: Value = -0.00
+                                              n1_8: Value = 0.00
+                                              n1_9: Value = 0.00
+                                          n2_START: Value = 1.00
+                                              n2_1: Value = 1.00
+                                              n2_2: Value = -0.00
+                                              n2_3: Value = -0.00
+                                              n2_4: Value = -0.00
+                                              n2_5: Value = -0.00
+                                              n2_6: Value = -0.00
+                                              n2_7: Value = -0.00
+                                              n2_8: Value = 0.00
+                                              n2_9: Value = 0.00
+                                          n3_START: Value = 1.00
+                                              n3_1: Value = 1.00
+                                              n3_2: Value = -0.00
+                                              n3_3: Value = -0.00
+                                              n3_4: Value = -0.00
+                                              n3_5: Value = -0.00
+                                              n3_6: Value = -0.00
+                                              n3_7: Value = -0.00
+                                              n3_8: Value = 0.00
+                                              n3_9: Value = 0.00
+                                          n4_START: Value = 1.00
+                                              n4_1: Value = 1.00
+                                              n4_2: Value = -0.00
+                                              n4_3: Value = -0.00
+                                              n4_4: Value = -0.00
+                                              n4_5: Value = -0.00
+                                              n4_6: Value = -0.00
+                                              n4_7: Value = -0.00
+                                              n4_8: Value = 0.00
+                                              n4_9: Value = 0.00
+                                          p1_START: Value = 3.00
+                                              p1_1: Value = -0.00
+                                              p1_2: Value = -0.00
+                                              p1_3: Value = 1.00
+                                              p1_4: Value = -0.00
+                                              p1_5: Value = -0.00
+                                              p1_6: Value = -0.00
+                                              p1_7: Value = -0.00
+                                              p1_8: Value = -0.00
+                                              p1_9: Value = 0.00
+                                          p2_START: Value = 5.00
+                                              p2_1: Value = -0.00
+                                              p2_2: Value = 0.00
+                                              p2_3: Value = 0.00
+                                              p2_4: Value = -0.00
+                                              p2_5: Value = 1.00
+                                              p2_6: Value = -0.00
+                                              p2_7: Value = -0.00
+                                              p2_8: Value = -0.00
+                                              p2_9: Value = 0.00
+                                          p3_START: Value = 2.00
+                                              p3_1: Value = -0.00
+                                              p3_2: Value = 1.00
+                                              p3_3: Value = -0.00
+                                              p3_4: Value = -0.00
+                                              p3_5: Value = -0.00
+                                              p3_6: Value = -0.00
+                                              p3_7: Value = -0.00
+                                              p3_8: Value = -0.00
+                                              p3_9: Value = 0.00
+                                          p4_START: Value = 4.00
+                                              p4_1: Value = -0.00
+                                              p4_2: Value = 0.00
+                                              p4_3: Value = -0.00
+                                              p4_4: Value = 1.00
+                                              p4_5: Value = -0.00
+                                              p4_6: Value = -0.00
+                                              p4_7: Value = -0.00
+                                              p4_8: Value = -0.00
+                                              p4_9: Value = 0.00
+                                            stop_1: Value = -0.00
+                                            stop_2: Value = -0.00
+                                            stop_3: Value = -0.00
+                                            stop_4: Value = 0.00
+                                            stop_5: Value = -0.00
+                                            stop_6: Value = 1.00
+                                            stop_7: Value = -0.00
+                                            stop_8: Value = -0.00
+                                            stop_9: Value = -0.00
+                                     start_latency: Value = 0.00
+                                        n1_latency: Value = 1.00
+                                        n2_latency: Value = 1.00
+                                        n3_latency: Value = 1.00
+                                        n4_latency: Value = 1.00
+                                        p1_latency: Value = 1.00
+                                        p2_latency: Value = 1.00
+                                        p3_latency: Value = 1.00
+                                        p4_latency: Value = 1.00
+                                         nop_start: Value = 1.00
+                                           mpy1_n1: Value = 1.00
+                                           mpy2_n1: Value = 0.00
+                                           mpy1_n2: Value = 1.00
+                                           mpy2_n2: Value = 0.00
+                                           mpy1_n3: Value = 1.00
+                                           mpy2_n3: Value = 0.00
+                                           mpy1_n4: Value = 1.00
+                                           mpy2_n4: Value = 0.00
+                                            alu_p1: Value = 1.00
+                                            alu_p2: Value = 1.00
+                                            alu_p3: Value = 1.00
+                                            alu_p4: Value = 1.00
+                                          nop_stop: Value = 1.00
+Maximum bound violation =  0.0

@@ -1,0 +1,6 @@
+; resource latency number area
+mpynalu 3 2 30
+nop 0 100 0
+; resource : list of opeartions can be executed by the resource
+mpynalu : b0 b1 b2 b3
+nop : start stop

@@ -1,0 +1,18 @@
+digraph G{
+	node [fontcolor=white,style=filled,color=blue2];
+	start [label = start];
+	b0 [label = b0];
+	b1 [label = b1];
+	b2 [label = b2];
+	b3 [label = b3];
+	stop [label = stop];
+	start -> b0;
+	start -> b1;
+	b0 -> b2;
+	b0 -> b3;
+	b1 -> b2;
+	b1 -> b3;
+	b2 -> stop;
+	b3 -> stop;
+}
+
